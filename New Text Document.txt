@@ -1,0 +1,12 @@
+const options = {
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '4eaabdfd0amsh9951bbc4cf949f8p11abf3jsn215b656b19cc',
+		'X-RapidAPI-Host': 'peerreach.p.rapidapi.com'
+	}
+};
+
+fetch('https://peerreach.p.rapidapi.com/user/lookup.json?screen_name=fredwilson', options)
+	.then(response => response.json())
+	.then(response => console.log(response))
+	.catch(err => console.error(err));
