@@ -69,6 +69,11 @@ body {
   line-height: 40px;
   margin-top: 20px;
 }
+.sigin-opt-sec a {
+  color: black;
+  font-weight: 800;
+  font-size: 18px;
+}
 
 input {
   text-align: center;

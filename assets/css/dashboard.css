@@ -8,8 +8,6 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0 10px;
   position: relative;
 }
@@ -18,6 +16,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 10px;
 }
 .logo-icon {
   width: 50px;
@@ -63,11 +62,11 @@ body {
 }
 
 .left-side-bar {
-  border-right: 1px solid #dadce0;
+  border-right: 1px solid #eff3f4;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: start;
+  align-items: end;
   flex: 0.2;
   width: 180px;
   margin-top: 20px;
@@ -76,6 +75,7 @@ body {
   /* top: 0; */
   /* left: 142px; */
   padding-right: 20px;
+  /* overflow: hidden; */
 }
 .side-bar-option:hover {
   background-color: #e7e7e8;
@@ -84,14 +84,14 @@ body {
 
 /* ---------------------- */
 .center-box {
-  border-right: 1px solid #dadce0;
+  border-right: 1px solid #eff3f4;
   flex: 0.4;
   width: auto;
   min-width: fit-content;
   overflow-y: scroll;
   position: relative;
   box-sizing: border-box;
-  max-width: 500px;
+  max-width: 650px;
 }
 
 .center-box-header {
@@ -100,7 +100,7 @@ body {
   z-index: 3;
   background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
-  border: 1px solid #dadce073;
+  border: 1px solid #eff3f4;
   /* padding: 15px 20px; */
   overflow: auto;
 }
@@ -140,7 +140,7 @@ body {
 /* tweet-box-css start from here */
 
 .tweet-box-main {
-  border-bottom: 1px solid #dadce0;
+  border-bottom: 1px solid #eff3f4;
   padding-right: 10px;
   width: 100%;
 }
@@ -194,7 +194,7 @@ body {
 .post {
   display: flex;
   align-items: flex-start;
-  border-bottom: 1px solid #dadce0;
+  border-bottom: 1px solid #eff3f4;
   padding: 10px;
   max-width: 550px;
 }
@@ -248,10 +248,10 @@ body {
   padding: 20px;
   flex: 0.3;
   overflow-y: scroll;
-  min-width: 350px;
+  /* min-width: 350px; */
   position: relative;
-  max-width: 550px;
-  margin-right: auto;
+  max-width: 650px;
+  /* margin-right: auto; */
 }
 .right-box::-webkit-scrollbar {
   display: none;
